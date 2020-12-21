@@ -1,0 +1,24 @@
+{
+    "PATHS" : {
+        "DATA_DIR": "data",
+        "MODEL_DIR" : "model",
+        "BEST_MODEL_FILE" : "best_model",
+        "TRAINING_DATA_FILE": "train.mat",
+        "VALIDATION_DATA_FILE": "valid.mat",
+        "TEST_DATA_FILE": "test.mat"
+    },
+    "OUTPUT" : {
+        "HISTORY": "history.txt",
+        "RESULTS": "results.txt",
+        "LOG": "log.txt"
+    },
+    "MODEL": {
+        "MINIBATCH_SIZE": 100,
+        "EPOCHS": 60,
+        "LOSS": "binary_crossentropy",
+        "OPTIMIZER" : "rmsprop",
+        "VERBOSE_OUTPUT": 1,
+        "PATIENCE": 15
+    }
+    
+}
