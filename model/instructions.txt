@@ -1,0 +1,2 @@
+Models created during the training process will automatically be stored here. 
+You can also place a custom weights file here and use that.
